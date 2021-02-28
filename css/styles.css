@@ -82,3 +82,34 @@ div.item{
   max-width: 100%;
   max-height: 100%;
 }
+
+.contact-us{
+  background-image: url(../assets/backgrounds/c_image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+input[type=text],input[type=email], #message{
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.form-control::-webkit-input-placeholder{
+  color: white;
+
+}
+#name, #email{
+  width: 40%;
+  margin: 20px;
+  
+}
+#message{
+  width: 90%;
+  margin-left: 20%;
+}
+button{
+  margin-left: 20%;
+}
