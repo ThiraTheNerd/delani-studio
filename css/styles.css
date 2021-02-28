@@ -71,7 +71,7 @@
   text-align: center;
   padding: 40px;
 }
-div.item{
+#item1, #item2, #item3{
   vertical-align: top;
   display: inline-block;
   text-align: center;
@@ -87,9 +87,16 @@ div.item{
   display: block;
 
 }
+#design, #development, #project-mgnt{
+  display: none;
+  text-align: center;
+
+
+}
 #portfolio{
   margin: 30px;
   align-items: center;
+  margin-bottom: 60px;
 }
 .col-md-3 img{
   width: 100%;
