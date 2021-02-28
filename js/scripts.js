@@ -19,3 +19,17 @@ $(document).ready(function(){
     $('#job3').hide()
   });
 });
+$(document).ready(function(){
+  $('#work4').mouseover(function(){
+    $('#job4').show();
+  }).mouseout(function(){
+    $('#job4').hide()
+  });
+});
+$(document).ready(function(){
+  $('#work5').mouseover(function(){
+    $('#job5').show();
+  }).mouseout(function(){
+    $('#job5').hide()
+  });
+});
