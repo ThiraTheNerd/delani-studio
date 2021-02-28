@@ -4,7 +4,7 @@ This is a website for Delani studio that displays information about the company 
 This is a website for Delani studio that displays information about the company to its visitors. The website gives an overview of what the company is about, what services they offer, a portfolio of their past works and their social media handles
 ## Setup/Installation Requirements
 * git clone https://github.com/ThiraTheNerd/delani-studio.git on your terminal.
-* Navigate to the akan names folder.
+* Navigate to the delani-studio folder.
 * Open the folder in your editor.
 
 ## Technologies Used
