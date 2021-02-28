@@ -84,18 +84,10 @@ $(document).ready(function(){
     $('#job8').hide()
   });
 });
-<<<<<<< HEAD
-=======
-
->>>>>>> gh-pages
 function submitForm(){
   var name = document.getElementById('name').value;
   var email = document.getElementById('email').value;
 
-<<<<<<< HEAD
-  alert("Hey" +name + ". we have received your email. Thank you for reaching out to us.")
-}
-=======
   if (name == "" && email == ""){
   } 
   else{
@@ -103,4 +95,3 @@ function submitForm(){
 
   }
 }
->>>>>>> gh-pages
