@@ -88,3 +88,10 @@ $(document).ready(function(){
     $('#job8').hide()
   });
 });
+function submitForm(){
+  var name = document.getElementById('name').value;
+  var email = document.getElementById('email').value;
+
+  alert("Hey" +name + ". we have received your email. Thank you for reaching out to us.")
+
+}
