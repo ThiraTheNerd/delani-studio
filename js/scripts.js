@@ -1,0 +1,21 @@
+$(document).ready(function(){
+  $('#work1').mouseover(function(){
+    $('#job1').show();
+  }).mouseout(function(){
+    $('#job1').hide()
+  });
+});
+$(document).ready(function(){
+  $('#work2').mouseover(function(){
+    $('#job2').show();
+  }).mouseout(function(){
+    $('#job2').hide()
+  });
+});
+$(document).ready(function(){
+  $('#work3').mouseover(function(){
+    $('#job3').show();
+  }).mouseout(function(){
+    $('#job3').hide()
+  });
+});
