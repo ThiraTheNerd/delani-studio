@@ -1,15 +1,18 @@
 # delani-studio
-**Design**
+This is a website for Delani studio that displays information about the company to its visitors. The website gives an overview of what the company is about, what services they offer, a portfolio of their past works and their social media handles
+## Description
+This is a website for Delani studio that displays information about the company to its visitors. The website gives an overview of what the company is about, what services they offer, a portfolio of their past works and their social media handles
+## Setup/Installation Requirements
+* git clone https://github.com/ThiraTheNerd/delani-studio.git on your terminal.
+* Navigate to the akan names folder.
+* Open the folder in your editor.
 
-Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
-Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
+## Technologies Used
+The technologies used to build this application are bootstrap, HTML, CSS and javascript, jQuerry.
 
-**Development**
-
-All engineers are fluent in the latest enterprise, mobile and web development technologies.
-They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
-
-**Product Management**
-
-Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
-This iterative process allows for changes as business requirements evolve.
+## Support and contact details
+Get in touch with me through my email thiragithinji@gmail.com i am a prompt responder. 
+Also feel free to contribute to this project whenever.
+### License
+*MIT License
+Copyright (c) {2021} **{ThiraTheNerd}**
