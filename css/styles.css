@@ -101,15 +101,24 @@ input[type=text],input[type=email], #message{
   color: white;
 
 }
-#name, #email{
-  width: 40%;
-  margin: 20px;
+#name{
+  width: 30%;
+  margin-left: 18%;
+  margin-right: 30px;
   
 }
+#email{
+  width: 30%;
+
+}
 #message{
-  width: 90%;
+  width: 60%;
   margin-left: 20%;
 }
 button{
   margin-left: 20%;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+
 }
+
