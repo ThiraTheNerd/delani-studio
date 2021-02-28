@@ -89,6 +89,10 @@ function submitForm(){
   var name = document.getElementById('name').value;
   var email = document.getElementById('email').value;
 
-  alert("Hey" +name + ". we have received your email. Thank you for reaching out to us.")
+  if (name == "" && email == ""){
+  } 
+  else{
+    alert("Hey " + name + ". we have received your email. Thank you for reaching out to us.")
 
+  }
 }
