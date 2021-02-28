@@ -93,5 +93,4 @@ function submitForm(){
   var email = document.getElementById('email').value;
 
   alert("Hey" +name + ". we have received your email. Thank you for reaching out to us.")
-
 }
