@@ -28,10 +28,6 @@ $(document).ready(function(){
     $('#item3').show();
   })
 });
-
-
-
-
 $(document).ready(function(){
   $('#work1').mouseover(function(){
     $('#job1').show();
@@ -88,3 +84,11 @@ $(document).ready(function(){
     $('#job8').hide()
   });
 });
+
+function submitForm(){
+  var name = document.getElementById('name').value;
+  var email = document.getElementById('email').value;
+
+  alert("Hey" +name + ". we have received your email. Thank you for reaching out to us.")
+
+}
