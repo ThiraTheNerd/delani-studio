@@ -84,14 +84,28 @@ $(document).ready(function(){
     $('#job8').hide()
   });
 });
-function submitForm(){
-  var name = document.getElementById('name').value;
-  var email = document.getElementById('email').value;
+// function submitForm(){
+//   var name = document.getElementById('name').value;
+//   var email = document.getElementById('email').value;
 
-  if (name == "" && email == ""){
-  } 
-  else{
-    alert("Hey " + name + ". we have received your email. Thank you for reaching out to us.")
+//   if (name == "" && email == ""){
+//   } 
+//   else{
+//     alert("Hey " + name + ". we have received your email. Thank you for reaching out to us.")
+//   }
+// }
 
-  }
-}
+$(document).ready(function(){
+  $("form#contact-form").submit(function(){
+    
+    var name = $("input#name").val();
+    var email = $("input#email").val();
+    $("input#name").val("");
+    $("input#email").val("");
+    $("input#message").val("");
+
+    return alert("Hey " + name + ". We have received your email. Thank you for reaching out to us.")
+
+  });
+
+});
