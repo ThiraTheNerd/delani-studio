@@ -96,7 +96,8 @@ $(document).ready(function(){
 // }
 
 $(document).ready(function(){
-  $("form#contact-form").submit(function(){
+  $("form#contact-form").submit(function(event){
+    event.preventDefault();
     
     var name = $("input#name").val();
     var email = $("input#email").val();
