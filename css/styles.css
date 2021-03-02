@@ -105,8 +105,8 @@ body p{
 }
 .col-md-3 img{
   width: 100%;
-  /* max-width: 100%;
-  max-height: 100%; */
+  max-width: 100%;
+  max-height: 100%;
 }
 
 #job1, #job2 ,#job3, #job4, #job5, #job6, #job7, #job8{
