@@ -96,14 +96,14 @@ $(document).ready(function(){
 // }
 
 $(document).ready(function(){
-  $("form#contact-form").submit(function(event){
+  $("form#mc-embedded-subscribe-form").submit(function(event){
     event.preventDefault();
     
-    var name = $("input#name").val();
-    var email = $("input#email").val();
-    $("input#name").val("");
-    $("input#email").val("");
-    $("input#message").val("");
+    var name = $("input#mce-NAME").val();
+    var email = $("input#mce-EMAIL").val();
+    $("input#mce-NAME").val("");
+    $("input#mce-EMAIL").val("");
+    $("input#mce-MESSAGE").val("");
 
     return alert("Hey " + name + ". We have received your email. Thank you for reaching out to us.")
 

@@ -137,7 +137,7 @@ body p{
   color: white;
 }
 
-input[type=text],input[type=email], #message{
+input[type=text],input[type=email], #mce-MESSAGE{
   background: transparent;
   color: white;
   font-size: 20px;
@@ -147,17 +147,17 @@ input[type=text],input[type=email], #message{
   color: white;
 
 }
-#name{
+#mce-NAME{
   width: 30%;
   margin-left: 18%;
   margin-right: 30px;
   
 }
-#email{
+#mce-EMAIL{
   width: 30%;
 
 }
-#message{
+#mce-MESSAGE{
   width: 60%;
   margin-left: 20%;
 }
@@ -221,17 +221,17 @@ button{
     padding-bottom: 30px;
     margin-bottom: 20px;
   }
-  #name{
+  #mce-NAME{
     width: 84%;
     margin-left: 4%;
     padding-bottom: 10px;
   }
-  #email{
+  #mce-EMAIL{
     width: 100%;
     margin-left: 4%;
     margin-bottom: 20px;
   }
-  #message{
+  #mce-MESSAGE{
     margin-left: 4%;
     width: 84%;
   }
