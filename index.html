@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Martel:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
   <script src="https://code.jquery.com/jquery-3.5.1.js"integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
     crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
@@ -139,21 +140,39 @@
 
   </div>
 </div>
+
+
 <div class="contact-us">
   <h3 id="heading">CONTACT US</h3>
-  <div class="container">
-    <form action ="https://github.us1.list-manage.com/subscribe/post?u=246fd5875919cf05b17193d0d&amp;id=55fd37f6f4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-      <div class="form-group form-inline">
-        <input type ="text" class="form-control" placeholder="Name" id="mce-NAME" size="25" value="">
-        <input type="email" class="form-control" placeholder="Email" id="mce-EMAIL" value="">
+  <!-- Begin Mailchimp Signup Form -->
+  <div id="mc_embed_signup">
+    <form action="https://github.us1.list-manage.com/subscribe/post?u=246fd5875919cf05b17193d0d&amp;id=55fd37f6f4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div class="row">
+        <div class="mc-field-group col">
+          <input type="text" value="" name="NAME" class="required" placeholder="Name" id="mce-NAME">
+        </div>
+        <div class="mc-field-group col">
+          <input type="email" value="" name="EMAIL" class="required email" placeholder="Email address" id="mce-EMAIL">
+        </div>
       </div>
-      <div class="form-group">
-        <textarea class="form-control" rows="8" name = "message" id="mce-MESSAGE" placeholder="Write us a message"></textarea>
+      <div class="mc-field-group">
+	      <input type="text" value="" name="MESSAGE" class="required" placeholder="Type message here ..." id="mce-MESSAGE">
       </div>
-      <button type="submit" class="btn btn-primary">SUBMIT</button>
+	    <div id="mce-responses" class="clear">
+		  <div class="response" id="mce-error-response" style="display:none"></div>
+		  <div class="response" id="mce-success-response" style="display:none"></div>
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_246fd5875919cf05b17193d0d_55fd37f6f4" tabindex="-1" value=""></div>
+      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+      </div>
     </form>
-  </div>
 </div>
+
+  
+
+
+</div>
+
+
 <div class="container-fluid">
   <div class="social-handles">
     <img src="assets/social_icons/twitter.png" alt="Twitter">
@@ -171,5 +190,7 @@
   <h5>2019</h5>
 
 </div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='NAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[2]='MESSAGE';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
 </body>
 </html>

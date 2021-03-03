@@ -98,6 +98,7 @@ body p{
 
 
 }
+#mc_embed_signup{background: transparent; clear:left; font:14px Helvetica,Arial,sans-serif; }
 #portfolio{
   margin: 10px;
   align-items: center;
@@ -127,8 +128,6 @@ body p{
   padding-bottom: 50%;
   font-family: "Martel", sans-serif;
 }
-
-
 .contact-us{
   background-image: url(../assets/backgrounds/c_image.jpg);
   background-position: center;
@@ -147,24 +146,41 @@ input[type=text],input[type=email], #mce-MESSAGE{
   color: white;
 
 }
+#mc_embed_signup{
+  background: transparent; 
+  clear:left; 
+  font:14px Helvetica,Arial,sans-serif; 
+  margin-bottom: 20px;
+}
+.mc-field-group input{
+  margin-bottom: 30px;
+  padding: 10px;
+
+}
+
 #mce-NAME{
-  width: 30%;
-  margin-left: 18%;
-  margin-right: 30px;
+  width: 60%;
+  margin-left: 45%;
   
 }
 #mce-EMAIL{
-  width: 30%;
+  width: 50%;
+  margin-right: 30px;
 
 }
 #mce-MESSAGE{
   width: 60%;
   margin-left: 20%;
-}
-button{
+  padding-bottom: 180px;
+} 
+.button{
   margin-left: 20%;
-  padding-bottom: 30px;
+  padding: 10px;
   margin-bottom: 20px;
+  background-color: rgb(154, 154, 240);
+  color: white;
+  text-align: center;
+  font-family: "Martel", sans-serif;
 }
 .container-fluid{
   text-align: center;
@@ -180,7 +196,7 @@ button{
     top: 20px;
     left: 16px;
     padding-top: 20%;
-    /* font-size: 16px; */
+    font-size: 16px;
   }
   .col-md-3 img{
     width:100%px;

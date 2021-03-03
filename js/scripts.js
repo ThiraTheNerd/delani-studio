@@ -84,20 +84,10 @@ $(document).ready(function(){
     $('#job8').hide()
   });
 });
-// function submitForm(){
-//   var name = document.getElementById('name').value;
-//   var email = document.getElementById('email').value;
 
-//   if (name == "" && email == ""){
-//   } 
-//   else{
-//     alert("Hey " + name + ". we have received your email. Thank you for reaching out to us.")
-//   }
-// }
-
-$(document).ready(function(){
-  $("form#mc-embedded-subscribe-form").submit(function(event){
-    event.preventDefault();
+$(document).ready(function(event){
+  event.preventDefault();
+  $("form#mc-embedded-subscribe-form").submit(function(){
     
     var name = $("input#mce-NAME").val();
     var email = $("input#mce-EMAIL").val();
@@ -105,8 +95,11 @@ $(document).ready(function(){
     $("input#mce-EMAIL").val("");
     $("input#mce-MESSAGE").val("");
 
-    return alert("Hey " + name + ". We have received your email. Thank you for reaching out to us.")
-
+    if(name == ""){
+      alert("Please fill in the name field.")
+    }
+    else{
+      alert("Hey " + name + ". We have received your email. Thank you for reaching out to us.")
+    }
   });
-
 });
