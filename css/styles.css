@@ -151,6 +151,7 @@ input[type=text],input[type=email], #mce-MESSAGE{
   clear:left; 
   font:14px Helvetica,Arial,sans-serif; 
   margin-bottom: 20px;
+  padding: 30px;
 }
 .mc-field-group input{
   margin-bottom: 30px;
