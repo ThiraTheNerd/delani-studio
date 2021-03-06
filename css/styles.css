@@ -98,7 +98,7 @@ body p{
 
 
 }
-#mc_embed_signup{background: transparent; clear:left; font:14px Helvetica,Arial,sans-serif; }
+/* #mc_embed_signup{background: transparent; clear:left; font:14px Helvetica,Arial,sans-serif; } */
 #portfolio{
   margin: 10px;
   align-items: center;
@@ -128,53 +128,69 @@ body p{
   padding-bottom: 50%;
   font-family: "Martel", sans-serif;
 }
-.contact-us{
-  background-image: url(../assets/backgrounds/c_image.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
-}
-
 input[type=text],input[type=email], #mce-MESSAGE{
   background: transparent;
   color: white;
   font-size: 20px;
   font-family: "Martel", sans-serif;
 }
-.form-control::-webkit-input-placeholder{
-  color: white;
-
+#contact .form-box {
+  background: #fff;
+  padding: 3rem;
+  box-shadow: 2px 2px 5px #D1D1D1;
+  border-radius: 10px;
 }
-#mc_embed_signup{
-  background: transparent; 
-  
-  font:14px Helvetica,Arial,sans-serif; 
-  margin-bottom: 20px;
-  padding: 30px;
+#contact .form-group {
+  margin-bottom: 2rem;
 }
-.mc-field-group input{
-  margin-bottom: 30px;
-  padding: 10px;
-
+#contact .name{
+  margin-bottom: 2rem;
+  padding-left: 400px;
 }
-
-#mce-NAME{
-  width: 60%;
-  margin-left: 45%;
-  
-}
-#mce-EMAIL{
-  width: 50%;
-  margin-right: 30px;
-
-}
-#mce-MESSAGE{
+#contact .form-group textarea {
   width: 60%;
   margin-left: 20%;
-  padding-bottom: 180px;
-} 
-.button{
+  font-size: 1.3rem;
+  padding: 1rem;
+  border: 0.5px solid #fff;
+  border-radius: 5px;
+  background: transparent;
+}
+#contact .form-group textarea {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#contact .contact-btn {
+  width: 20%;
+  margin-left: 20%;
+  display: inline-block;
+  padding: 1rem 3rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  background: transparent;
+  color: #fff;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  transition: background 0.3s;
+  background-color: blueviolet;
+}
+#contact .contact-btn:hover {
+  background:blue;
+}
+.form-container {
+  position:relative}
+.name input {
+  width: 30%;
+  font-size: 20px;
+  padding: 5px;
+  border: 0.5px solid #fff;
+  border-radius: 1px;
+  background: transparent;
+}
+::placeholder{
+  color: #fff;
+}
+/* .button{
   margin-left: 20%;
   padding: 10px;
   margin-bottom: 20px;
@@ -182,7 +198,7 @@ input[type=text],input[type=email], #mce-MESSAGE{
   color: white;
   text-align: center;
   font-family: "Martel", sans-serif;
-}
+} */
 .container-fluid{
   text-align: center;
   font-family: "Martel", sans-serif;

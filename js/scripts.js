@@ -85,21 +85,55 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function(event){
-  event.preventDefault();
-  $("form#mc-embedded-subscribe-form").submit(function(){
-    
-    var name = $("input#mce-NAME").val();
-    var email = $("input#mce-EMAIL").val();
+$(document).ready(function(){
+  $("#contact").submit(function(event){
+    event.preventDefault ();
+    var name = $("#mce-NAME").val();
+    var email = $("#mce-EMAIL").val();
     $("input#mce-NAME").val("");
     $("input#mce-EMAIL").val("");
     $("input#mce-MESSAGE").val("");
 
-    if(name == ""){
-      alert("Please fill in the name field.")
+    if (name === ""){
+      alert("Please enter your name");
+    }else{
+      alert("Hey " + name + ". We have received your email. Thank you for contacting us.")
     }
-    else{
-      alert("Hey " + name + ". We have received your email. Thank you for reaching out to us.")
-    }
+
+    // alert("Hey " + name + ". We have received your email. Thank you for contacting us.");
+
   });
 });
+
+// function alertUser(){
+
+//   var name = document.getElementById("mce-NAME").value();
+
+//   return alert("Hey " + name + ". We have received your email. Thank you for reaching out to us.")
+
+//   // if(name == ""){
+//   //     alert("Please fill in the name field.");
+//   //   }
+//   //   else{
+//   //     alert("Hey " + name + ". We have received your email. Thank you for reaching out to us.");
+//   //   }
+//   }
+
+// // $(document).ready(function(event){
+// //   event.preventDefault();
+// //   $("form#mc-embedded-subscribe-form").submit(function(){
+    
+// //     var name = $("input#mce-NAME").val();
+// //     var email = $("input#mce-EMAIL").val();
+// //     $("input#mce-NAME").val("");
+// //     $("input#mce-EMAIL").val("");
+// //     $("input#mce-MESSAGE").val("");
+
+// //     if(name == ""){
+// //       alert("Please fill in the name field.")
+// //     }
+// //     else{
+// //       alert("Hey " + name + ". We have received your email. Thank you for reaching out to us.")
+// //     }
+// //   });
+// // });
